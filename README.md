@@ -18,7 +18,39 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  CfErr.configure do |c|
+    c.account = "sprout"
+    c.project_id = 123
+    c.auth_token = "abcdef"
+    c.watch = {"NoMethodError" => 2, "ActionView::MissingTemplate" => 3}
+  end
+
+  errors_to_notify = CfErr.fetch
+
+  module PagerDuty
+    def trigger
+      pg = Pagerduty.new('23668330dd3f012fb8442200023423')
+
+      @errors.each do |e|
+        pg.trigger("Airbrake Errors", :details => @error)
+      end
+    end
+  end
+
+  CfErr::Notifier.configure(PagerDuty)
+
+  n = CfErr::Notifier.new(errors_to_notify)
+  n.notify!
+
+## TODO
+
+  Got to support this DSL for adding new Providers
+
+  Notifier.configure do |notifier|
+    notifier.register_provider PagerDuty
+    notifier.register_provider Twilio
+  end
+
 
 ## Contributing
 

@@ -19,7 +19,14 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'foreverb', '~> 0.3.0'
   gem.add_dependency 'nokogiri', '~> 1.5.5'
+  gem.add_dependency 'sequel',   '~> 3.39'
+  # gem.add_dependency 'curator',  '~> 0.8.1'
 
   gem.add_development_dependency 'pry'
   gem.add_development_dependency 'minitest'
+  gem.add_development_dependency 'turn'
+  gem.add_development_dependency 'pagerduty'
+  gem.add_development_dependency 'rr'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'sqlite3'
 end

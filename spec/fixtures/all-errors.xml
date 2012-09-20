@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups type="array">
+  <group>
+    <action>index</action>
+    <controller>pages</controller>
+    <created-at type="datetime">2012-01-06T10:42:20Z</created-at>
+    <error-class>ActionView::MissingTemplate</error-class>
+    <error-message>ActionView::MissingTemplate: Missing template pages/index with {:locale=&gt;[:en, :en], :formats=&gt;[:"*/*;q=0.9"], :handlers=&gt;[:rjs, :haml, :rhtml, :rxml, :erb, :builder]} in view paths "/home/deploy/bizcardarmy/releases/20120709043439/app/views", "/home/depl</error-message>
+    <file>[GEM_ROOT]/gems/actionpack-3.0.3/lib/action_view/paths.rb</file>
+    <id type="integer">30820950</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">15</line-number>
+    <most-recent-notice-at type="datetime">2012-09-02T08:38:19Z</most-recent-notice-at>
+    <notice-hash>9eb8d3783fa49220a0e440a01bc3fccb</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-09-02T08:38:19Z</updated-at>
+    <notices-count type="integer">466</notices-count>
+  </group>
+  <group>
+    <action>show</action>
+    <controller>widgets</controller>
+    <created-at type="datetime">2012-02-02T09:31:43Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `click' for nil:NilClass</error-message>
+    <file>[PROJECT_ROOT]/app/widgets/mbm_iphone_downloads_week_widget.rb</file>
+    <id type="integer">34942806</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">26</line-number>
+    <most-recent-notice-at type="datetime">2012-09-02T04:15:19Z</most-recent-notice-at>
+    <notice-hash>0a7e407cdce667e0cd8dae50364bdd8b</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-09-02T04:15:20Z</updated-at>
+    <notices-count type="integer">1190</notices-count>
+  </group>
+  <group>
+    <action>show</action>
+    <controller>widgets</controller>
+    <created-at type="datetime">2012-01-12T03:56:07Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `click' for nil:NilClass</error-message>
+    <file>[PROJECT_ROOT]/app/widgets/mbm_iphone_downloads_total_widget.rb</file>
+    <id type="integer">31645778</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">19</line-number>
+    <most-recent-notice-at type="datetime">2012-09-02T04:15:08Z</most-recent-notice-at>
+    <notice-hash>86a50fa6e11d858a5b8e607565a6054b</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-09-02T04:15:08Z</updated-at>
+    <notices-count type="integer">1284</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2012-08-28T17:47:13Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `original_filename' for nil:NilClass</error-message>
+    <file>[PROJECT_ROOT]/app/controllers/cards_controller.rb</file>
+    <id type="integer">52151980</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">524</line-number>
+    <most-recent-notice-at type="datetime">2012-08-29T03:46:42Z</most-recent-notice-at>
+    <notice-hash>0b73d2db5cd53f58250dbf496c178ff6</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-08-28T17:47:14Z</updated-at>
+    <notices-count type="integer">7</notices-count>
+  </group>
+  <group>
+    <action>export_contacts</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2012-07-19T18:49:05Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `export' for nil:NilClass</error-message>
+    <file>[PROJECT_ROOT]/app/controllers/cards_controller.rb</file>
+    <id type="integer">51668116</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">278</line-number>
+    <most-recent-notice-at type="datetime">2012-08-21T23:03:24Z</most-recent-notice-at>
+    <notice-hash>de27c1877649fb028a36f38313dcd676</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-19T18:49:06Z</updated-at>
+    <notices-count type="integer">3</notices-count>
+  </group>
+  <group>
+    <action>card_complete_notification</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2012-05-04T12:16:04Z</created-at>
+    <error-class>ActionView::MissingTemplate</error-class>
+    <error-message>ActionView::MissingTemplate: Missing template cards/card_complete_notification with {:locale=&gt;[:en, :en], :formats=&gt;[:html], :handlers=&gt;[:rjs, :haml, :rhtml, :rxml, :erb, :builder]} in view paths "/home/deploy/bizcardarmy/releases/20120709043439/app/views</error-message>
+    <file>[GEM_ROOT]/gems/actionpack-3.0.3/lib/action_view/paths.rb</file>
+    <id type="integer">50278471</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">15</line-number>
+    <most-recent-notice-at type="datetime">2012-08-21T10:48:33Z</most-recent-notice-at>
+    <notice-hash>f885c5eff1d9c17c687c667f75cca325</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-27T03:17:32Z</updated-at>
+    <notices-count type="integer">5886</notices-count>
+  </group>
+  <group>
+    <action>new</action>
+    <controller>sessions</controller>
+    <created-at type="datetime">2011-09-12T15:46:26Z</created-at>
+    <error-class>ActionView::MissingTemplate</error-class>
+    <error-message>ActionView::MissingTemplate: Missing template sessions/new with {:locale=&gt;[:en, :en], :formats=&gt;[:json], :handlers=&gt;[:rjs, :haml, :rhtml, :rxml, :erb, :builder]} in view paths "/home/deploy/bizcardarmy/releases/20120709043439/app/views/devise", "/home/dep</error-message>
+    <file>[GEM_ROOT]/gems/actionpack-3.0.3/lib/action_view/paths.rb</file>
+    <id type="integer">13795497</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">15</line-number>
+    <most-recent-notice-at type="datetime">2012-08-14T05:54:38Z</most-recent-notice-at>
+    <notice-hash>fa50b2e3aeb7c62caeb912c6aee46670</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-05-07T08:26:40Z</updated-at>
+    <notices-count type="integer">33</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>registrations</controller>
+    <created-at type="datetime">2012-04-19T15:04:02Z</created-at>
+    <error-class>Net::SMTPFatalError</error-class>
+    <error-message>Net::SMTPFatalError: 553-5.1.2 We weren't able to find the recipient domain. Please check for any
+</error-message>
+    <file>/home/deploy/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/net/smtp.rb</file>
+    <id type="integer">45771062</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">930</line-number>
+    <most-recent-notice-at type="datetime">2012-07-28T09:18:55Z</most-recent-notice-at>
+    <notice-hash>3ae3abef5809bddc542d1dc1de62cdfb</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-06-26T15:17:42Z</updated-at>
+    <notices-count type="integer">13</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2012-07-25T23:12:14Z</created-at>
+    <error-class>Timeout::Error</error-class>
+    <error-message>Timeout::Error: Resource temporarily unavailable</error-message>
+    <file>[GEM_ROOT]/gems/net-http-persistent-1.9/lib/net/http/faster.rb</file>
+    <id type="integer">51757599</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">18</line-number>
+    <most-recent-notice-at type="datetime">2012-07-25T23:12:14Z</most-recent-notice-at>
+    <notice-hash>bc35da348b1c75fc6dbfdb05ad0c7f2b</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-25T23:12:15Z</updated-at>
+    <notices-count type="integer">1</notices-count>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-07-13T10:00:08Z</created-at>
+    <error-class>SystemStackError</error-class>
+    <error-message>SystemStackError: stack level too deep</error-message>
+    <file>[PROJECT_ROOT]/config/initializers/rails_admin.rb</file>
+    <id type="integer">51574322</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">24</line-number>
+    <most-recent-notice-at type="datetime">2012-07-13T10:00:08Z</most-recent-notice-at>
+    <notice-hash>936dd256189ded53b0d8fe735f722abd</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-13T10:00:09Z</updated-at>
+    <notices-count type="integer">1</notices-count>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-07-12T05:31:02Z</created-at>
+    <error-class>SystemStackError</error-class>
+    <error-message>SystemStackError: stack level too deep</error-message>
+    <file>[GEM_ROOT]/gems/activerecord-3.0.3/lib/active_record/attribute_methods/read.rb</file>
+    <id type="integer">51558448</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">69</line-number>
+    <most-recent-notice-at type="datetime">2012-07-12T05:31:02Z</most-recent-notice-at>
+    <notice-hash>0a8e9616b9ce0b88d1ad941adeb2f7af</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-12T05:31:05Z</updated-at>
+    <notices-count type="integer">1</notices-count>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-07-11T03:34:11Z</created-at>
+    <error-class>SystemStackError</error-class>
+    <error-message>SystemStackError: stack level too deep</error-message>
+    <file>[GEM_ROOT]/gems/activesupport-3.0.3/lib/active_support/core_ext/class/inheritable_attributes.rb</file>
+    <id type="integer">51543513</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">123</line-number>
+    <most-recent-notice-at type="datetime">2012-07-11T03:34:11Z</most-recent-notice-at>
+    <notice-hash>b864af6e37199cacc66be0703c9b19f2</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-11T03:34:12Z</updated-at>
+    <notices-count type="integer">1</notices-count>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-07-11T03:33:50Z</created-at>
+    <error-class>SystemStackError</error-class>
+    <error-message>SystemStackError: stack level too deep</error-message>
+    <file>[GEM_ROOT]/gems/activesupport-3.0.3/lib/active_support/core_ext/class/inheritable_attributes.rb</file>
+    <id type="integer">51543506</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">144</line-number>
+    <most-recent-notice-at type="datetime">2012-07-11T03:33:50Z</most-recent-notice-at>
+    <notice-hash>0d4d95db896fdb44ae4841cfc3a88189</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-11T03:33:51Z</updated-at>
+    <notices-count type="integer">1</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2011-10-14T02:18:25Z</created-at>
+    <error-class>Paperclip::NotIdentifiedByImageMagickError</error-class>
+    <error-message>Paperclip::NotIdentifiedByImageMagickError: /tmp/stream20120710-18772-321xnc-0.jpg is not recognized by the 'identify' command.</error-message>
+    <file>[GEM_ROOT]/gems/paperclip-2.3.16/lib/paperclip/geometry.rb</file>
+    <id type="integer">16903525</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">27</line-number>
+    <most-recent-notice-at type="datetime">2012-07-10T11:34:01Z</most-recent-notice-at>
+    <notice-hash>96bf19bdb18c5e755063d080d0ddc86a</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-07-10T11:34:01Z</updated-at>
+    <notices-count type="integer">14</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>registrations</controller>
+    <created-at type="datetime">2011-12-16T01:29:58Z</created-at>
+    <error-class>Net::SMTPSyntaxError</error-class>
+    <error-message>Net::SMTPSyntaxError: 502 5.5.1 Unrecognized command. z3sm16009321igc.7 </error-message>
+    <file>/home/deploy/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/net/smtp.rb</file>
+    <id type="integer">28398894</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">930</line-number>
+    <most-recent-notice-at type="datetime">2012-07-05T11:10:14Z</most-recent-notice-at>
+    <notice-hash>7481059bb598c99730fc45a44b40e13b</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me>Net::SMTPSyntaxError: 502 5.5.1 Unrecognized command. b20sm27479369ibj.7  registrations#create</search-index-me>
+    <updated-at type="datetime">2012-07-05T11:10:14Z</updated-at>
+    <notices-count type="integer">7</notices-count>
+  </group>
+  <group>
+    <action>return_data_for_autocompletion</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2011-09-06T09:12:51Z</created-at>
+    <error-class>ActiveRecord::StatementInvalid</error-class>
+    <error-message>ActiveRecord::StatementInvalid: Mysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `cards` WHERE ( IS NOT NULL and  like '%') LIMIT 20' at line 1: SELEC</error-message>
+    <file>[GEM_ROOT]/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract_adapter.rb</file>
+    <id type="integer">13032001</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">202</line-number>
+    <most-recent-notice-at type="datetime">2012-07-04T23:55:03Z</most-recent-notice-at>
+    <notice-hash>1da5a363948f4833b185b465f54db56a</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-05-15T17:50:00Z</updated-at>
+    <notices-count type="integer">253</notices-count>
+  </group>
+  <group>
+    <action>index</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2011-09-07T03:59:03Z</created-at>
+    <error-class>Riddle::ConnectionError</error-class>
+    <error-message>Riddle::ConnectionError: Connection to 127.0.0.1 on 9312 failed. Connection refused - connect(2)</error-message>
+    <file>[GEM_ROOT]/gems/riddle-1.4.0/lib/riddle/client.rb</file>
+    <id type="integer">13106249</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">576</line-number>
+    <most-recent-notice-at type="datetime">2012-06-26T04:03:29Z</most-recent-notice-at>
+    <notice-hash>936b5071e02962794a3bdb9a03f24c16</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-06-25T15:38:16Z</updated-at>
+    <notices-count type="integer">61</notices-count>
+  </group>
+  <group>
+    <action>show</action>
+    <controller>widgets</controller>
+    <created-at type="datetime">2011-10-14T08:08:04Z</created-at>
+    <error-class>Net::HTTP::Persistent::Error</error-class>
+    <error-message>Net::HTTP::Persistent::Error: too many connection resets (due to Resource temporarily unavailable - Timeout::Error) after 1 requests on 93934730</error-message>
+    <file>[GEM_ROOT]/gems/net-http-persistent-1.9/lib/net/http/persistent.rb</file>
+    <id type="integer">16922117</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">458</line-number>
+    <most-recent-notice-at type="datetime">2012-06-24T21:42:00Z</most-recent-notice-at>
+    <notice-hash>13255cc7500631fd7a7c44517a62d134</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-05-28T23:35:00Z</updated-at>
+    <notices-count type="integer">21</notices-count>
+  </group>
+  <group>
+    <action>index</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-05-11T05:46:10Z</created-at>
+    <error-class>ActiveRecord::StatementInvalid</error-class>
+    <error-message>ActiveRecord::StatementInvalid: Mysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and year = 2011 group by year, month' at line 1: select count(*) as numb</error-message>
+    <file>[GEM_ROOT]/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract_adapter.rb</file>
+    <id type="integer">50499092</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">202</line-number>
+    <most-recent-notice-at type="datetime">2012-05-25T11:13:25Z</most-recent-notice-at>
+    <notice-hash>7bf42e95f47be6c6dba43f64baff2e52</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-05-11T05:46:11Z</updated-at>
+    <notices-count type="integer">10</notices-count>
+  </group>
+  <group>
+    <action>index</action>
+    <controller>bca_admin</controller>
+    <created-at type="datetime">2012-03-30T05:28:50Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `email' for nil:NilClass</error-message>
+    <file>[PROJECT_ROOT]/app/views/bca_admin/index.js.erb</file>
+    <id type="integer">42425721</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">7</line-number>
+    <most-recent-notice-at type="datetime">2012-05-01T05:47:42Z</most-recent-notice-at>
+    <notice-hash>e3b769103e89c79d7b8fa28a31d6d93f</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-04-30T10:10:37Z</updated-at>
+    <notices-count type="integer">38</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2012-04-19T17:25:33Z</created-at>
+    <error-class>Riddle::ConnectionError</error-class>
+    <error-message>Riddle::ConnectionError: Connection to 127.0.0.1 on 9312 failed. Connection refused - connect(2)</error-message>
+    <file>[GEM_ROOT]/gems/riddle-1.4.0/lib/riddle/client.rb</file>
+    <id type="integer">45807789</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">576</line-number>
+    <most-recent-notice-at type="datetime">2012-04-19T17:25:33Z</most-recent-notice-at>
+    <notice-hash>d034d1ba4eb3d83ddeae53f96e8d7d14</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-04-19T17:25:34Z</updated-at>
+    <notices-count type="integer">2</notices-count>
+  </group>
+  <group>
+    <action>show</action>
+    <controller>widgets</controller>
+    <created-at type="datetime">2011-10-13T06:03:35Z</created-at>
+    <error-class>Mechanize::ResponseCodeError</error-class>
+    <error-message>Mechanize::ResponseCodeError: 502 =&gt; Net::HTTPBadGateway</error-message>
+    <file>[GEM_ROOT]/gems/mechanize-2.0.1/lib/mechanize/http/agent.rb</file>
+    <id type="integer">16747837</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">241</line-number>
+    <most-recent-notice-at type="datetime">2012-04-19T08:39:06Z</most-recent-notice-at>
+    <notice-hash>483d693419700b23914fb676991664e2</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-04-26T03:15:02Z</updated-at>
+    <notices-count type="integer">24</notices-count>
+  </group>
+  <group>
+    <action>new</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-03-30T06:06:37Z</created-at>
+    <error-class>SystemStackError</error-class>
+    <error-message>SystemStackError: stack level too deep</error-message>
+    <file>[GEM_ROOT]/gems/builder-2.1.2/lib/blankslate.rb</file>
+    <id type="integer">42428597</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">85</line-number>
+    <most-recent-notice-at type="datetime">2012-03-30T06:06:37Z</most-recent-notice-at>
+    <notice-hash>fdc99fb044fc2581d43e4d6f7c8fab7f</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-03-30T06:06:37Z</updated-at>
+    <notices-count type="integer">2</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>registrations</controller>
+    <created-at type="datetime">2012-03-29T14:54:12Z</created-at>
+    <error-class>Net::SMTPAuthenticationError</error-class>
+    <error-message>Net::SMTPAuthenticationError: 454 4.7.0 Cannot authenticate due to temporary system problem. Try again later. aj16sm4988777oec.4 </error-message>
+    <file>/home/deploy/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/net/smtp.rb</file>
+    <id type="integer">42324745</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">942</line-number>
+    <most-recent-notice-at type="datetime">2012-03-29T14:54:12Z</most-recent-notice-at>
+    <notice-hash>88c966961e1a52f71d01c5ed124e78da</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-03-29T14:54:13Z</updated-at>
+    <notices-count type="integer">2</notices-count>
+  </group>
+  <group>
+    <action>new</action>
+    <controller>sessions</controller>
+    <created-at type="datetime">2011-09-27T11:24:49Z</created-at>
+    <error-class>ActionView::MissingTemplate</error-class>
+    <error-message>ActionView::MissingTemplate: Missing template sessions/new with {:locale=&gt;[:en, :en], :formats=&gt;[:json], :handlers=&gt;[:haml, :rjs, :rhtml, :rxml, :erb, :builder]} in view paths "/home/deploy/bizcardarmy-staging/releases/20120321044935/app/views/devise", "/</error-message>
+    <file>[GEM_ROOT]/gems/actionpack-3.0.3/lib/action_view/paths.rb</file>
+    <id type="integer">14958441</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">15</line-number>
+    <most-recent-notice-at type="datetime">2012-03-21T13:22:00Z</most-recent-notice-at>
+    <notice-hash>074e4e096a5b57075e2f989f968cba47</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>staging</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-03-21T13:22:00Z</updated-at>
+    <notices-count type="integer">215</notices-count>
+  </group>
+  <group>
+    <action>return_data_for_autocompletion</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2011-09-28T21:28:18Z</created-at>
+    <error-class>ActiveRecord::StatementInvalid</error-class>
+    <error-message>ActiveRecord::StatementInvalid: Mysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `cards` WHERE ( IS NOT NULL and like '%') LIMIT 20' at line 1: SELECT</error-message>
+    <file>[GEM_ROOT]/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract_adapter.rb</file>
+    <id type="integer">15055625</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">202</line-number>
+    <most-recent-notice-at type="datetime">2012-03-21T10:30:04Z</most-recent-notice-at>
+    <notice-hash>6a159b76cfcda9d19d848091c2f70f12</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>staging</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-03-21T10:30:04Z</updated-at>
+    <notices-count type="integer">230</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>registrations</controller>
+    <created-at type="datetime">2012-02-08T23:42:48Z</created-at>
+    <error-class>Errno::ECONNRESET</error-class>
+    <error-message>Errno::ECONNRESET: Connection reset by peer</error-message>
+    <file>/home/deploy/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/net/protocol.rb</file>
+    <id type="integer">35535378</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">177</line-number>
+    <most-recent-notice-at type="datetime">2012-02-23T01:41:52Z</most-recent-notice-at>
+    <notice-hash>bc0421a52b5bceef90b5a4d9b26484b9</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-02-23T01:41:52Z</updated-at>
+    <notices-count type="integer">6</notices-count>
+  </group>
+  <group>
+    <action>create</action>
+    <controller>cards</controller>
+    <created-at type="datetime">2012-02-04T23:28:37Z</created-at>
+    <error-class>Errno::ECONNRESET</error-class>
+    <error-message>Errno::ECONNRESET: Connection reset by peer</error-message>
+    <file>/home/deploy/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/net/protocol.rb</file>
+    <id type="integer">35133806</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">177</line-number>
+    <most-recent-notice-at type="datetime">2012-02-15T01:11:20Z</most-recent-notice-at>
+    <notice-hash>6313a430f960f91790bb8e6e31eb82d7</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-02-15T01:11:20Z</updated-at>
+    <notices-count type="integer">3</notices-count>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-02-13T09:14:11Z</created-at>
+    <error-class>SystemStackError</error-class>
+    <error-message>SystemStackError: stack level too deep</error-message>
+    <file>[GEM_ROOT]/gems/builder-2.1.2/lib/blankslate.rb</file>
+    <id type="integer">35995429</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">85</line-number>
+    <most-recent-notice-at type="datetime">2012-02-13T09:37:31Z</most-recent-notice-at>
+    <notice-hash>dac1e084824d1212b48410722196485e</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-02-13T09:37:32Z</updated-at>
+    <notices-count type="integer">3</notices-count>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>rails_admin/main</controller>
+    <created-at type="datetime">2012-02-13T09:14:07Z</created-at>
+    <error-class>SystemStackError</error-class>
+    <error-message>SystemStackError: stack level too deep</error-message>
+    <file>[GEM_ROOT]/bundler/gems/rails_admin-37d70d13e96a/lib/rails_admin/config/base.rb</file>
+    <id type="integer">35995422</id>
+    <lighthouse-ticket-id type="integer" nil="true"></lighthouse-ticket-id>
+    <line-number type="integer">57</line-number>
+    <most-recent-notice-at type="datetime">2012-02-13T09:14:07Z</most-recent-notice-at>
+    <notice-hash>fee69ff9b63c211292105be768fb6e98</notice-hash>
+    <project-id type="integer">41793</project-id>
+    <rails-env>production</rails-env>
+    <resolved type="boolean">false</resolved>
+    <search-index-me nil="true"></search-index-me>
+    <updated-at type="datetime">2012-02-13T09:14:08Z</updated-at>
+    <notices-count type="integer">2</notices-count>
+  </group>
+</groups>
