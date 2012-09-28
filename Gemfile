@@ -4,3 +4,4 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'active_support', :require => false
+gem 'persistence', :github => 'playlouder/persistence'

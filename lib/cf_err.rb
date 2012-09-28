@@ -2,9 +2,13 @@ require "cf_err/version"
 require "nokogiri"
 require "open-uri"
 require "pagerduty"
+
+require 'sqlite3'
+require 'persistence'
+require 'persistence/sequel'
+require 'thin_models/struct'
+
 require 'pry'
-require 'cf_err/generic_repository'
-require 'cf_err/error_repository'
 
 module CfErr
 
@@ -60,12 +64,13 @@ module CfErr
     end
   end
 
-  class Error < ErrorRepository
-    attr_accessor :uid, :name, :count, :message
-    def initialize(uid, name, count, message)
-      @uid, @name, @count, @message = uid, name, count.to_i, message
-    end
-  end
+  Error = ThinModels::StructWithIdentity(:uid, :name, :count, :message)
+  # class Error
+  #   attr_accessor :uid, :name, :count, :message
+  #   def initialize(uid, name, count, message)
+  #     @uid, @name, @count, @message = uid, name, count.to_i, message
+  #   end
+  # end
 
 
   class ErrorsWatched
@@ -128,3 +133,4 @@ module CfErr
   end
 end
 
+require 'cf_err/error_repository'
